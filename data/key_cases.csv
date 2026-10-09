@@ -1,0 +1,25 @@
+year,firm,industry,category,offense,regulators,penalty_usd_bn,ref_net_income_usd_bn,ref_income_year,non_monetary_sanctions,recurrence_note
+2012,HSBC,Banking,AML/sanctions,BSA/AML failures; cartel and sanctions-evasion flows (Mexico),DOJ/OCC/Fed/OFAC,1.92,16.8,2011,5-yr DPA; independent monitor,FCA fined HSBC GBP 63.9m in 2021 for transaction-monitoring failures (2010-2018)
+2014,JPMorgan Chase,Banking,AML/sanctions,BSA failures linked to Madoff,DOJ/OCC/FinCEN,2.05,17.9,2013,2-yr DPA,
+2014,BNP Paribas,Banking,AML/sanctions,US sanctions evasion (Sudan/Iran/Cuba),DOJ/NYDFS/Fed/OFAC,8.97,6.4,2013,Guilty plea; 1-yr USD-clearing suspension for some business lines,
+2017,Western Union,Money transmission,AML/sanctions,AML failures; fraud facilitation,DOJ/FTC/FinCEN,0.586,0.84,2015,DPA; monitor,Earlier USD 94m Southwest Border settlement (2010)
+2017,Deutsche Bank,Banking,AML/sanctions,Russian mirror trades,NYDFS/FCA,0.63,,2016 (net loss),Monitor,Fed USD 186m sanctions/AML penalty in 2023
+2018,Commonwealth Bank of Australia,Banking,AML/sanctions,Unreported threshold transactions (IDMs),AUSTRAC,0.53,6.9,FY2018,None material,Westpac (2020) and casinos (2023-) followed in the same market
+2018,ING,Banking,AML/sanctions,Structural AML failures,Dutch OM,0.90,5.5,2017,None material,ABN AMRO settled EUR 480m in 2021 for similar failures in the same market
+2019,Standard Chartered,Banking,AML/sanctions,Sanctions/AML failures,DOJ/NYDFS/Fed/OFAC/FCA,1.10,1.1,2018,DPA extension,Prior NYDFS actions 2012 (sanctions) and 2014 (AML monitoring)
+2020,Westpac,Banking,AML/sanctions,23m unreported IFTIs; child-exploitation risk flows,AUSTRAC,0.92,4.7,FY2019,CEO and chair departed,Followed CBA (2018) in the same market
+2021,ABN AMRO,Banking,AML/sanctions,Failures to monitor/report,Dutch OM,0.57,2.3,2019,None material,Followed ING (2018) in the same market
+2022,Danske Bank,Banking,AML/sanctions,Estonian branch non-resident flows (~USD 200bn+),DOJ/SEC/Danish authorities,2.0,2.0,2021,Guilty plea (US); exited Baltics,
+2023,Binance,Crypto exchange,AML/sanctions,No effective AML program; sanctions,DOJ/FinCEN/OFAC/CFTC,4.3,,private,Guilty plea; CEO plea and 4-month prison term; monitor,
+2024,TD Bank,Banking,AML/sanctions,No effective AML program; USD 18tn unmonitored,DOJ/FinCEN/OCC/Fed,3.09,7.9,FY2023,Guilty plea; US asset cap; monitor,
+2026,American Express,Card issuer/Banking,AML/sanctions,~USD 13bn suspected TBML unreported 2014-2025,OCC/Fed,0.35,10.8,2025 (approx.),Cease-and-desist; look-back; no asset cap,
+2012,BP,Oil & gas,Non-AML,Deepwater Horizon criminal plea (11 deaths; spill),DOJ,4.0,16.6,2009,Guilty plea; temporary federal-contract debarment,
+2016,BP,Oil & gas,Non-AML,Deepwater Horizon Clean Water Act and NRD consent decree,DOJ/states,20.8,16.6,2009,Total spill-related charges ~USD 65bn,
+2016,Volkswagen,Autos,Non-AML,Diesel emissions defeat devices (US civil),EPA/DOJ/CARB/FTC,14.7,14.7,2014,Buybacks/fix programme; monitor,
+2017,Volkswagen,Autos,Non-AML,Diesel emissions defeat devices (US criminal),DOJ,4.3,14.7,2014,Guilty plea; executives indicted (one sentenced to 7 years),
+2009,Pfizer,Pharma,Non-AML,Off-label marketing (Bextra etc.),DOJ/HHS-OIG,2.3,8.1,2008,Guilty plea (subsidiary); 5-yr CIA,Earlier 2004 Neurontin settlement (USD 430m); some 2009 conduct overlapped an earlier CIA
+2012,GlaxoSmithKline,Pharma,Non-AML,Off-label marketing; safety data,DOJ,3.0,8.5,2011,Guilty plea; 5-yr CIA,Industry-wide off-label settlements continued through the 2010s (J&J USD 2.2bn in 2013)
+2014,General Motors,Autos,Non-AML,Concealed ignition-switch defect,DOJ,0.9,5.3,2013,DPA; monitor,
+2020,Wells Fargo,Banking,Non-AML,Fake-accounts sales practices,DOJ/SEC,3.0,19.5,2019,Fed asset cap 2018-2025 (est. USD 4bn+ forgone profit by 2020); CEO exits,Earlier USD 185m (2016) settlement did not end the regulatory issues
+2021,Boeing,Aerospace,Non-AML,737 MAX fraud on FAA (346 deaths),DOJ,2.5,10.5,2018,DPA (criminal fine only USD 0.24bn of the 2.5bn),DOJ found DPA breach in May 2024 after the Jan-2024 door-plug blowout
+2020,Purdue Pharma,Pharma,Non-AML,Opioid marketing/kickbacks,DOJ,8.3,,private,Guilty plea; company dissolved in bankruptcy,
