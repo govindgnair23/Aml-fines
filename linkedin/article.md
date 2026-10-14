@@ -4,7 +4,7 @@
 
 ---
 
-Last week the OCC fined American Express National Bank $350 million for failing to run a working AML programme. The failures spanned roughly eleven years, and about $13 billion in suspected trade-based money laundering went unreported.
+Earlier this month the OCC fined American Express National Bank $350 million for failing to run a working AML programme. The failures spanned roughly eleven years, and about $13 billion in suspected trade-based money laundering went unreported.
 
 Jim Richards made a sharp point about it: over that period the company earned about $70 billion. The fine is a rounding error. "FINES. DON'T. WORK."
 
@@ -12,11 +12,17 @@ I wanted to know whether the data backs that up. If it does, what *would* work? 
 
 **[Image 1 – g1-context.png]**
 
+Then, five days later, it happened again. On October 13, FinCEN fined Bank of America $1.2 billion. That total includes the OCC's largest-ever civil penalty, $750 million. The bank admitted *willfully* violating the Bank Secrecy Act and failing to report more than $5 billion in suspicious transactions on time, over $1 billion of it tied to national-security risks such as Chinese money-laundering networks.
+
+A record OCC penalty sounds big, but it's about 4% of the $30.5 billion Bank of America earned in 2025. It also came 22 months after an OCC cease-and-desist order on the same programme. Two of the largest US banks were penalised in one week, each for roughly 3–4% of a year's profit, and neither faces an asset cap.
+
+**[Image 2 – g1b-two-banks.png]**
+
 ## 1. AML fines aren't unusually small. They're just not the kind of sanction that changes behaviour.
 
 I lined up landmark corporate penalties against the firm's net income for one year. They range from HSBC and TD to BP's Deepwater Horizon, Volkswagen's dieselgate, Pfizer, GSK and Boeing.
 
-The surprise: big AML fines are about the same size as other big fines relative to profit. The median is roughly 22% of a year's earnings for AML and 28% for everything else. AmEx is the outlier at about 3%.
+The surprise: big AML fines are about the same size as other big fines relative to profit. The median is roughly 20% of a year's earnings for AML and 28% for everything else. This month's two cases, AmEx at about 3% and Bank of America at about 4%, sit at the very bottom.
 
 The cases that actually changed behaviour had something extra:
 - **They cost more than a year's profit.** BP's total Deepwater bill was around $65 billion.
@@ -24,7 +30,7 @@ The cases that actually changed behaviour had something extra:
 
 When American Express says the penalty was already reserved for and doesn't change its guidance, that tells you how it registers.
 
-**[Image 2 – g2-penalty-vs-profit.png]**
+**[Image 3 – g2-penalty-vs-profit.png]**
 
 ## 2. The same failures, again and again
 
@@ -32,9 +38,9 @@ If fines deterred, we'd expect landmark cases to be followed by quiet. Instead:
 - **HSBC, Standard Chartered, Deutsche Bank and Western Union** were all penalised again after their big settlements.
 - **In the Netherlands,** ING's €775 million in 2018 was followed by ABN AMRO's €480 million in 2021.
 - **In Australia,** CBA was followed by Westpac and then by the casinos.
-- **In the US,** TD's failures ran from 2014 to 2023, entirely *after* HSBC's 2012 "landmark" case. AmEx's ran right through HSBC, Danske, Binance and TD.
+- **In the US,** TD's failures ran from 2014 to 2023, entirely *after* HSBC's 2012 "landmark" case. AmEx's ran right through HSBC, Danske, Binance and TD. Bank of America's $1.2 billion penalty followed its own 2024 cease-and-desist order.
 
-**[Image 3 – g3-repeat.png]**
+**[Image 4 – g3-repeat.png]**
 
 ## 3. What the research actually says
 
@@ -51,13 +57,13 @@ The measured effects from other industries are striking. **None of them comes fr
 - One OSHA press release did as much for compliance as about 210 extra inspections.
 - Posting hygiene grades on restaurant doors in Los Angeles cut foodborne-illness hospitalisations by around 20%.
 
-**[Image 4 – g5-evidence.png]**
+**[Image 5 – g5-evidence.png]**
 
 ## 4. How regimes compare
 
 I scored ten enforcement regimes against those principles: traffic, aviation safety, nuclear, food hygiene, tax, healthcare, workplace safety, cyber/data, aviation security and AML. It's a qualitative judgment, but the pattern is hard to miss.
 
-**[Image 5 – g4-scorecard.png]**
+**[Image 6 – g4-scorecard.png]**
 
 AML comes last. The dividing line between the regimes that work and those that don't is **observability**:
 - **Traffic** has cameras.
@@ -87,7 +93,7 @@ There's precedent. Researchers posing as clients found that roughly half of comp
 
 Built into a system, it would look like this:
 
-**[Image 6 – g6-system.png]**
+**[Image 7 – g6-system.png]**
 
 1. **Measure.** Run frequent, unannounced, end-to-end tests. Score both detection and false positives, so banks aren't rewarded for drowning law enforcement in defensive SARs.
 2. **Respond fast.** Apply modest, automatic consequences for poor scores, like a traffic ticket rather than a fine a decade later.

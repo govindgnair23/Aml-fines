@@ -71,6 +71,19 @@
   <div class="source">Sources: OCC / Federal Reserve (Oct 8, 2026); American Express Form 8-K; annual reports. Net income figures are approximate and refer to the parent company.</div>
 </div>
 
+<!-- 1b. Two banks, one week -->
+<div class="card" id="g1b-two-banks">
+  <p class="kicker">October 2026</p>
+  <h1>Two AML penalties in one week. Each about 3–4% of a year's profit.</h1>
+  <p class="sub">American Express (Oct 8) and Bank of America (Oct 13), measured against each company's 2025 net income.</p>
+  <div class="stats" style="grid-template-columns: 1fr 1fr;">
+    <div class="stat"><div class="lbl" style="margin:0 0 10px;font-weight:600;color:var(--ink)">American Express</div><div class="num">3%</div><div class="lbl">$350M OCC penalty vs ≈ $10.8B net income. ≈ $13B in suspected trade-based laundering unreported over ~11 years.</div></div>
+    <div class="stat"><div class="lbl" style="margin:0 0 10px;font-weight:600;color:var(--ink)">Bank of America</div><div class="num">3.9%</div><div class="lbl">$1.2B FinCEN penalty (incl. the OCC's record $750M) vs $30.5B net income. &gt; $5B in suspicious transactions not reported on time.</div></div>
+  </div>
+  <div class="note">Bank of America admitted <b>willfully</b> violating the Bank Secrecy Act, and the failures include more than $1B tied to national-security risks such as Chinese money-laundering networks. It came 22 months after an OCC cease-and-desist order on the same programme. Neither bank faces an asset cap.</div>
+  <div class="source">Sources: FinCEN, OCC, Federal Reserve (Oct 2026); company filings. OFAC also settled separately with Bank of America for $11.6M. Net income: AmEx approximate; Bank of America FY2025 as reported.</div>
+</div>
+
 <!-- 2. Penalty vs profit -->
 <div class="card" id="g2-penalty-vs-profit">
   <p class="kicker">Landmark corporate penalties</p>
@@ -78,7 +91,7 @@
   <p class="sub">Penalty as a share of the firm's net income in a reference year. The cases that changed behaviour cost more than a year's profit or restricted the business.</p>
   <div class="legend"><span style="--c: var(--aml)">AML / sanctions</span><span style="--c: var(--other)">Other misconduct</span></div>
   <svg id="bars" width="1072" height="10"></svg>
-  <div class="source">Penalty ÷ approximate net income of the year shown (usually the year before the penalty). Hand-picked landmark cases, not a sample; figures rounded. Medians: AML ≈ 22%, other ≈ 28%. Data: github.com/govindgnair23/Aml-fines.</div>
+  <div class="source">Penalty ÷ approximate net income of the year shown (usually the year before the penalty). Hand-picked landmark cases, not a sample; figures rounded. Medians: AML ≈ 20%, other ≈ 28%. Data: github.com/govindgnair23/Aml-fines.</div>
 </div>
 
 <!-- 3. Repeat offending -->
@@ -149,7 +162,7 @@ const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).
     ["Pfizer 2009", 28, 0], ["ABN AMRO 2021", 25, 1], ["BP (Deepwater, criminal) 2012", 24, 0],
     ["Boeing 2021", 24, 0], ["Westpac 2020", 20, 1], ["General Motors 2014", 17, 0], ["ING 2018", 16, 1],
     ["Wells Fargo 2020", 15, 0], ["HSBC 2012", 11, 1], ["JPMorgan (Madoff) 2014", 11, 1],
-    ["Commonwealth Bank 2018", 8, 1], ["American Express 2026", 3, 1],
+    ["Commonwealth Bank 2018", 8, 1], ["Bank of America 2026", 4, 1], ["American Express 2026", 3, 1],
   ];
   const svg = document.getElementById("bars");
   const L = 270, W = 1072, R = 60, bh = 22, gap = 9, top = 26;
@@ -163,7 +176,7 @@ const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).
   el("text", {x: x(100), y: H - 6, "text-anchor": "middle", "font-size": 13, fill: css("--ink-2")}, svg, "= one full year's profit");
   rows.forEach(([name, v, aml], i) => {
     const y = top + i * (bh + gap);
-    const hl = name.startsWith("American Express");
+    const hl = name.endsWith("2026");
     el("text", {x: L - 12, y: y + bh / 2 + 5, "text-anchor": "end", "font-size": 15, "font-weight": hl ? 700 : 400, fill: css("--ink")}, svg, name);
     const w = Math.max(x(v) - L, 4);
     el("path", {d: `M${L},${y} h${w - 4} a4,4 0 0 1 4,4 v${bh - 8} a4,4 0 0 1 -4,4 h${-(w - 4)} z`, fill: aml ? css("--aml") : css("--other")}, svg);
@@ -181,6 +194,7 @@ const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).
     ["Citi / Banamex", [[2013, "Fed order"], [2015, "$140M"], [2017, "$97M"]]],
     ["Netherlands", [[2018, "ING €775M"], [2021, "ABN AMRO €480M"]]],
     ["Australia", [[2018, "CBA A$0.7B"], [2020, "Westpac A$1.3B"], [2023, "Crown A$450M"]]],
+    ["Bank of America", [[2024, "OCC order"], [2026, "$1.2B"]]],
     ["US mega-cases", [[2012, "HSBC $1.9B"], [2024, "TD $3.1B"], [2026, "AmEx $350M"]]],
   ];
   const svg = document.getElementById("timeline");
@@ -198,7 +212,7 @@ const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).
     el("text", {x: 0, y: y + 5, "font-size": 16, "font-weight": 600, fill: css("--ink")}, svg, name);
     el("line", {x1: x(evs[0][0]), x2: x(evs[evs.length - 1][0]), y1: y, y2: y, stroke: "#9ec5f4", "stroke-width": 2}, svg);
     evs.forEach(([yr, lab]) => {
-      const hl = lab.startsWith("AmEx");
+      const hl = lab.startsWith("AmEx") || name === "Bank of America" && yr === 2026;
       el("circle", {cx: x(yr), cy: y, r: 8, fill: hl ? css("--other") : css("--aml"), stroke: "#fff", "stroke-width": 2}, svg);
       el("text", {x: x(yr), y: y + 26, "text-anchor": "middle", "font-size": 13, "font-weight": hl ? 700 : 400, fill: css("--ink-2")}, svg, lab);
     });

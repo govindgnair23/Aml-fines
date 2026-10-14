@@ -13,6 +13,7 @@ year,firm,industry,category,offense,regulators,penalty_usd_bn,ref_net_income_usd
 2023,Binance,Crypto exchange,AML/sanctions,No effective AML program; sanctions,DOJ/FinCEN/OFAC/CFTC,4.3,,private,Guilty plea; CEO plea and 4-month prison term; monitor,
 2024,TD Bank,Banking,AML/sanctions,No effective AML program; USD 18tn unmonitored,DOJ/FinCEN/OCC/Fed,3.09,7.9,FY2023,Guilty plea; US asset cap; monitor,
 2026,American Express,Card issuer/Banking,AML/sanctions,~USD 13bn suspected TBML unreported 2014-2025,OCC/Fed,0.35,10.8,2025 (approx.),Cease-and-desist; look-back; no asset cap,
+2026,Bank of America,Banking,AML/sanctions,>USD 5bn suspicious transactions not reported on time; admitted willful BSA violations,FinCEN/OCC/OFAC,1.21,30.5,2025,No asset cap; follows Dec-2024 OCC cease-and-desist,OCC cease-and-desist (Dec 2024) on the same AML programme
 2012,BP,Oil & gas,Non-AML,Deepwater Horizon criminal plea (11 deaths; spill),DOJ,4.0,16.6,2009,Guilty plea; temporary federal-contract debarment,
 2016,BP,Oil & gas,Non-AML,Deepwater Horizon Clean Water Act and NRD consent decree,DOJ/states,20.8,16.6,2009,Total spill-related charges ~USD 65bn,
 2016,Volkswagen,Autos,Non-AML,Diesel emissions defeat devices (US civil),EPA/DOJ/CARB/FTC,14.7,14.7,2014,Buybacks/fix programme; monitor,
